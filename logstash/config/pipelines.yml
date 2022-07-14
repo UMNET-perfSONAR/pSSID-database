@@ -1,0 +1,5 @@
+# docker-compose.yml mounts ./logstash/pipeline under /usr/share/logstash/pipeline
+- pipeline.id: sanity-pipeline
+  path.config: /usr/share/logstash/pipeline/sanity-pipeline.conf
+- pipeline.id: perfsonar-pipeline
+  path.config: /usr/share/logstash/pipeline/perfsonar/*.conf
