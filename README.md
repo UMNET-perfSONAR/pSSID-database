@@ -1,3 +1,11 @@
+# pSSID-database
+
+This repository is a Dockerization of the ELK stack, configured for [pSSID](https://github.com/UMNET-perfSONAR/pSSID) probes to log their data to. [./logstash/pipeline/perfsonar](./logstash/pipeline/perfsonar) contains perfSONAR-specific pipelines pulled from [perfsonar/logstash/5.0.0](https://github.com/perfsonar/logstash/tree/5.0.0/pipeline). For deployment, see [ansible-playbook-pssid-database](https://github.com/UMNET-perfSONAR/ansible-playbook-pssid-database).
+
+This repository is a fork of [Docker-ELK](https://github.com/deviantony/docker-elk), whose readme is below.
+
+---
+
 # Elastic stack (ELK) on Docker
 
 [![Elastic Stack version](https://img.shields.io/badge/Elastic%20Stack-8.3.2-00bfb3?style=flat&logo=elastic-stack)](https://www.elastic.co/blog/category/releases)
